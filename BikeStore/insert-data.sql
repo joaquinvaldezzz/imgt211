@@ -18,3 +18,10 @@ VALUES
 
 SELECT *
 from sales.stores;
+
+INSERT INTO sales.staffs
+VALUES
+  ('John Joaquin', 'Valdez', 'valdezjoaquin@gmail.com', '0912 345 6789', 1, 1, 1);
+
+SELECT *
+from sales.staffs;
