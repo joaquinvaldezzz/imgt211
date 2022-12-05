@@ -38,7 +38,6 @@ CREATE TABLE Staffs
   [StaffPassword] VARCHAR(256)
 );
 
-
 CREATE TABLE Customers
 (
   [Customer_ID] INT PRIMARY KEY NOT NULL,
