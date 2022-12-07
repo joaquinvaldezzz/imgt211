@@ -45,7 +45,7 @@ CREATE TABLE
     CustomerFirstName VARCHAR(256),
     CustomerLastName VARCHAR(256),
     CustomerAddress VARCHAR(256),
-    CustomerPhone INT
+    CustomerPhone NUMERIC(18)
   );
 
 CREATE TABLE
