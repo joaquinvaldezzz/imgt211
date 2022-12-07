@@ -22,6 +22,12 @@ UPDATE Products SET Supplier_ID = 530 WHERE Product_ID = 148;
 UPDATE Products SET Supplier_ID = 5351 WHERE Product_ID = 7172;
 UPDATE Products SET Supplier_ID = 5351 WHERE Product_ID = 5250;
 
+UPDATE Products SET DateDelivered = '01-01-2022' WHERE Supplier_ID = 8907;
+UPDATE Products SET DateDelivered = '01-01-2022' WHERE Supplier_ID = 1050;
+UPDATE Products SET DateDelivered = '01-01-2022' WHERE Supplier_ID = 530;
+UPDATE Products SET DateDelivered = '01-01-2022' WHERE Supplier_ID = 5351;
+UPDATE Products SET DateDelivered = '01-01-2022' WHERE Supplier_ID = 4331;
+
 INSERT INTO Inventory
   (InvQTY, ProductName, Product_ID)
 VALUES
