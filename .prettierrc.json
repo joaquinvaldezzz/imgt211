@@ -7,7 +7,7 @@
       "files": "*.sql",
       "options": {
         "keywordCase": "upper",
-        "expressionWidth": 100
+        "expressionWidth": 80
       }
     }
   ]
