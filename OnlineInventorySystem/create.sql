@@ -17,6 +17,7 @@ CREATE TABLE Products
   [ProductName] VARCHAR(256),
   [ProductPrice] FLOAT,
   [ProductQTY] INT,
+  [DateDelivered] DATE,
   [Supplier_ID] INT FOREIGN KEY REFERENCES Suppliers(Supplier_ID)
 );
 
