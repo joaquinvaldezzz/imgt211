@@ -1,0 +1,16 @@
+{
+  "private": true,
+  "scripts": {
+    "format": "prettier --write .",
+    "prepare": "husky install"
+  },
+  "lint-staged": {
+    "*.sql": "prettier --write"
+  },
+  "devDependencies": {
+    "husky": ">=6",
+    "lint-staged": ">=10",
+    "prettier": "^2.8.0",
+    "prettier-plugin-sql": "^0.12.1"
+  }
+}
