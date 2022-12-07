@@ -16,6 +16,12 @@ VALUES
   (7172, 'PUREFOODS CORNED BEEF 210G', 101.75, 52),
   (5250, 'GATORADE BLUE BOLT SPORTS DRINK 1.5L', 102.35, 73);
 
+UPDATE Products SET Supplier_ID = 8907 WHERE Product_ID = 3705;
+UPDATE Products SET Supplier_ID = 1050 WHERE Product_ID = 9816;
+UPDATE Products SET Supplier_ID = 530 WHERE Product_ID = 148;
+UPDATE Products SET Supplier_ID = 5351 WHERE Product_ID = 7172;
+UPDATE Products SET Supplier_ID = 5351 WHERE Product_ID = 5250;
+
 INSERT INTO Inventory
   (InvQTY, ProductName, Product_ID)
 VALUES
