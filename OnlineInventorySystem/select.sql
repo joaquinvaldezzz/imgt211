@@ -3,7 +3,7 @@ SELECT
   Orders.Order_ID,
   Orders.ProductName,
   Customers.Customer_ID,
-  Customers.CustomerFirstName + ' ' + Customers.CustomerLastName AS CustomerName,
+  CONCAT (Customers.CustomerFirstName, SPACE (1), Customers.CustomerLastName) AS CustomerName,
   Orders.OrderQuantity * Orders.OrderTotal AS TotalAmount,
   Payment.Payment_ID,
   Payment.PaymentType
