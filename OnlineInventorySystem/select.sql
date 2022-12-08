@@ -3,7 +3,7 @@ SELECT
   Orders.Order_ID,
   Orders.ProductName,
   Customers.Customer_ID,
-  CONCAT (Customers.CustomerFirstName, SPACE (1), Customers.CustomerLastName) AS CustomerName,
+  CONCAT_WS (SPACE (1), Customers.CustomerFirstName, Customers.CustomerLastName) AS CustomerName,
   Orders.OrderQuantity * Orders.OrderTotal AS TotalAmount,
   Payment.Payment_ID,
   Payment.PaymentType
@@ -28,3 +28,23 @@ SELECT
   SUM(OrderQuantity * OrderTotal) AS TotalSales
 FROM
   Orders;
+
+-- Query 4
+SELECT
+  Staff_ID,
+  CONCAT_WS (SPACE (1), StaffFirstName, StaffLastName) AS StaffName,
+  StaffAddress
+FROM
+  Staffs;
+
+-- Query 5
+SELECT
+  COUNT(Staff_ID) AS ActiveStaffs
+FROM
+  Staffs;
+
+-- Query 6
+SELECT DISTINCT
+  PaymentType
+FROM
+  Payment;
