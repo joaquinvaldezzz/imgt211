@@ -38,12 +38,6 @@ FROM
   Staffs;
 
 -- Query 5
-SELECT
-  COUNT(Staff_ID) AS ActiveStaffs
-FROM
-  Staffs;
-
--- Query 6
 SELECT DISTINCT
   PaymentType
 FROM
