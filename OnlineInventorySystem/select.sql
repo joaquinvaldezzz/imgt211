@@ -17,6 +17,7 @@ FROM
 SELECT
   Products.ProductName,
   Products.ProductPrice,
+  Products.ProductQTY,
   Suppliers.Supplier_ID
 FROM
   Products
