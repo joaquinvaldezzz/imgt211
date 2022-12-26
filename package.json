@@ -8,9 +8,9 @@
     "*.sql": "prettier --write"
   },
   "devDependencies": {
-    "husky": ">=6",
-    "lint-staged": ">=10",
-    "prettier": "^2.8.0",
+    "husky": ">=8",
+    "lint-staged": ">=13",
+    "prettier": "^2.8.1",
     "prettier-plugin-sql": "^0.12.1"
   }
 }
